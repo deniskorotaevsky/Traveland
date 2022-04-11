@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $(".slider").slick({
         dots: true,
         slidesToShow: 5,
@@ -6,7 +6,7 @@ $(document).ready(function(){
         Infinity: true,
         speed: 500,
         initialSlade: 2,
-        responsive:[
+        responsive: [
             {
                 breakpoint: 1400,
                 settings: {
